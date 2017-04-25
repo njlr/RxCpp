@@ -1,0 +1,6 @@
+{
+  "name": "rxcpp",
+  "dependencies": {
+    "philsquared/catch": "1.9.3"
+  }
+}

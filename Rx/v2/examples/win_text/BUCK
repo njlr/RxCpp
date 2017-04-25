@@ -1,0 +1,16 @@
+cxx_binary(
+  name = 'win_text',
+  header_namespace = '',
+  headers = glob([
+    '*.h',
+  ]),
+  srcs = [
+    'main.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:rxcpp',
+  ],
+)
