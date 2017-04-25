@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'SampleCppLinq',
+  srcs = [
+    'SampleCppLinq.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:cpplinq',
+  ],
+)

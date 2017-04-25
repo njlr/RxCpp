@@ -1,6 +1,6 @@
 {
   "name": "rxcpp",
   "dependencies": {
-    "philsquared/catch": "1.9.3"
+    "boost/lambda": "1.63.0"
   }
 }

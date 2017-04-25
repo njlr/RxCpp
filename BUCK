@@ -1,9 +1,9 @@
 prebuilt_cxx_library(
-  name = 'rxcpp',
+  name = 'cpplinq',
   header_only = True,
-  header_namespace = 'rxcpp',
+  header_namespace = 'cpplinq',
   exported_headers = subdir_glob([
-    ('Rx/v2/src/rxcpp', '**/*.hpp'),
+    ('Ix/CPP/src/cpplinq', '**/*.hpp'),
   ]),
   visibility = [
     'PUBLIC',

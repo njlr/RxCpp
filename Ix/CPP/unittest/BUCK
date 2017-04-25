@@ -1,0 +1,17 @@
+cxx_binary(
+  name = 'unittest',
+  header_namespace = '',
+  headers = [
+    'testbench.hpp',
+  ],
+  srcs = [
+    'testbench.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:cpplinq',
+    'boost-lambda//:lambda',
+  ],
+)
